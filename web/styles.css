@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.navbar{
+    background-color: rgb(22, 7, 36);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 5rem;
+}
+
+.left h1{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
+
+#checkBtn{
+    cursor: pointer; 
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+}
+
+/* making horizontal  */
+.right ul{
+    display: flex;
+    list-style: none;
+}
+
+.right ul li a{
+    /* for gap between content */
+    padding: 10px 60px;
+    /* font sizing */
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    /* to remove underline from link */
+    text-decoration: none;
+    /* for transition  */
+    transition: all 1s;
+}
+
+.right ul li a:hover{
+background-color: #fff;
+/* to make box radius round */
+border-radius: 7px;
+color: rgb(3, 58, 12);
+}
+
+#check{
+    display: none;
+}
+
+#checkBtn{
+    display: block;
+}
