@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-color: #191825;
+
+    /* 1st strick */
+    /* position: relative; */
+
+     /* second way using flexbox*/
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+    /* 3rd way */
+/* 
+    display: grid;
+    place-items: center; */
+
+
+    /* 4th way :  */
+
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+
+
+    /* 5th way */
+
+    display: flex;
+
+}
+
+.child{
+
+    width: 300px;
+    height: 300px;
+    background-color: #865dff;
+
+    /* 1st trick */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%); */
+
+    /* 5th way */
+
+    margin: auto;
+
+
+
+    /* Text center */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
